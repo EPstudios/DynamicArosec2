@@ -1,0 +1,23 @@
+{
+  "name": "dynamicarosec2",
+  "version": "1.0.0",
+  "description": "inital testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server -S"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EPstudios/DynamicArosec2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EPstudios/DynamicArosec2/issues"
+  },
+  "homepage": "https://github.com/EPstudios/DynamicArosec2#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
