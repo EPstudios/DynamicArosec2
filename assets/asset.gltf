@@ -12,9 +12,9 @@
 	}],
 	"nodes":[{
 		"name":"Sphere.3",
-		"translation":[30.922489166259767,
+		"translation":[-91.4056396484375,
 		70.0,
-		95.14983367919922],
+		40.70088195800781],
 		"rotation":[0.0,
 		0.0,
 		0.0,
@@ -26,9 +26,9 @@
 	},
 	{
 		"name":"Sphere.2",
-		"translation":[-58.81349182128906,
+		"translation":[45.43199920654297,
 		60.0,
-		-80.9479751586914],
+		-89.1506576538086],
 		"rotation":[0.0,
 		0.0,
 		0.0,
@@ -40,9 +40,9 @@
 	},
 	{
 		"name":"Sphere.1",
-		"translation":[80.94678497314453,
+		"translation":[20.804908752441408,
 		50.0,
-		58.81513595581055],
+		97.8438491821289],
 		"rotation":[0.0,
 		0.0,
 		0.0,
@@ -54,9 +54,9 @@
 	},
 	{
 		"name":"Sphere",
-		"translation":[-95.14920806884766,
+		"translation":[-77.7574234008789,
 		40.0,
-		-30.924419403076173],
+		-62.96940231323242],
 		"rotation":[0.0,
 		0.0,
 		0.0,
@@ -876,9 +876,9 @@
 	}],
 	"materials":[{
 		"pbrMetallicRoughness":{
-			"baseColorFactor":[1.0,
-			0.0,
-			0.0,
+			"baseColorFactor":[0.0,
+			1.0,
+			0.033333333333333218,
 			1.0],
 			"metallicFactor":0.0,
 			"roughnessFactor":0.5
@@ -887,23 +887,23 @@
 		0.0,
 		0.0],
 		"alphaMode":"OPAQUE",
-		"name":"Mat",
+		"name":"shperes",
 		"doubleSided":false
 	},
 	{
 		"pbrMetallicRoughness":{
-			"baseColorFactor":[1.0,
-			1.0,
-			1.0,
+			"baseColorFactor":[0.8,
+			0.8,
+			0.8,
 			1.0],
-			"metallicFactor":0.0,
-			"roughnessFactor":0.5
+			"metallicFactor":0.25,
+			"roughnessFactor":0.2
 		},
 		"emissiveFactor":[0.0,
 		0.0,
 		0.0],
 		"alphaMode":"OPAQUE",
-		"name":"white",
+		"name":"Marble",
 		"doubleSided":false
 	},
 	{
@@ -912,8 +912,8 @@
 			0.37,
 			0.37,
 			1.0],
-			"metallicFactor":0.0,
-			"roughnessFactor":0.185
+			"metallicFactor":1.0,
+			"roughnessFactor":1.0
 		},
 		"emissiveFactor":[0.0,
 		0.0,
